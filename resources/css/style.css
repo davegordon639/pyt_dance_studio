@@ -1,0 +1,49 @@
+header {
+  display: flex;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 64px;
+  width: 100%;
+  justify-content: flex-start;
+  z-index: 2;
+  background-color: black;
+  color: #fff;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: auto;
+  height: 50px;
+  margin: 10px 3.875rem;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+  align-items: center;
+}
+
+nav ul {
+  margin-right: 3.875rem;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style-type: none;
+  margin-right: 1rem;
+}
+
+nav a, nav a:hover, nav a:active {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
