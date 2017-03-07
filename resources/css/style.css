@@ -81,7 +81,7 @@ nav a:hover {
 
 .headline div {
   text-align: center;
-  width: 45rem;
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -92,7 +92,7 @@ nav a:hover {
   font-weight: bold;
   padding: 1.25rem 3.125rem;
   color: white;
-  width: 35%;
+  width: 250px;
   margin: 0 auto;
 }
 
@@ -157,4 +157,21 @@ footer p {
   font-size: .875rem;
   letter-spacing: 0.7px;
   text-align: center;
+}
+
+@media (max-width: 780px) {
+  .section div {
+    width: 100%;
+    line-height: 1.4;
+    padding: 1.875rem;
+    margin-left: 0px;
+    height: auto;
+    float: none;
+  }
+
+  .section h2{
+    font-size: 1.875rem;
+    font-weight: bold;
+    line-height: 1.4;
+  }
 }
