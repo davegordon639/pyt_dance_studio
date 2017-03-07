@@ -1,3 +1,7 @@
+html {
+  margin: 0px;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   margin: 0px;
@@ -93,11 +97,23 @@ nav a:hover {
 }
 
 .section {
-  background-image: url("../images/graffiti-photo.png");
+
   background-position: center;
   margin-top: 0px;
   height: 31.25rem;
   width: 100%;
+}
+
+#graffiti {
+  background-image: url("../images/graffiti-photo.png");
+}
+
+#fire {
+  background-image: url("../images/fire-photo.png");
+}
+
+#jump {
+  background-image: url("../images/jump-photo.png");
 }
 
 .section h2{
@@ -114,4 +130,31 @@ nav a:hover {
   padding: 25px;
   float: right;
   margin-top: 130px;
+}
+
+.section p {
+  padding: .125rem;
+}
+
+footer {
+  background-image: url("../images/party-photo.png");
+  background-repeat: no-repeat;
+  opacity: .5;
+}
+
+.footer-bar {
+  display: flex;
+  height: 64px;
+  width: 100%;
+  justify-content: flex-start;
+  color: #fff;
+  background-color: #000;
+  opacity: .5;
+}
+
+footer p {
+  padding: 4rem;
+  font-size: .875rem;
+  letter-spacing: 0.7px;
+  text-align: center;
 }
