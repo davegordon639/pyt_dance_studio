@@ -1,8 +1,8 @@
 body {
   font-family: 'Open Sans', sans-serif;
-  margin-left: 0px;
-  margin-right: 0px;
+  margin: 0px;
   background-color: #000;
+  color: white;
 }
 
 header {
@@ -90,4 +90,28 @@ nav a:hover {
   color: white;
   width: 35%;
   margin: 0 auto;
+}
+
+.section {
+  background-image: url("../images/graffiti-photo.png");
+  background-position: center;
+  margin-top: 0px;
+  height: 31.25rem;
+  width: 100%;
+}
+
+.section h2{
+  font-size: 2.25rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.section div {
+  height: 20rem;
+  width: 25rem;
+  background-color: rgba(173,74,226,0.9);
+  line-height: 1.4;
+  padding: 25px;
+  float: right;
+  margin-top: 130px;
 }
