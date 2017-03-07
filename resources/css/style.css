@@ -61,6 +61,7 @@ nav a:hover {
 
 .headline {
   background-image: url("../images/dancers-photo.png");
+  background-repeat: no-repeat;
   margin-top: 64px;
   opacity: .8;
   padding: 3.125rem;
@@ -160,6 +161,12 @@ footer p {
 }
 
 @media (max-width: 780px) {
+
+  .section {
+    display: flex;
+    align-items: flex-end;
+  }
+
   .section div {
     width: 100%;
     line-height: 1.4;
@@ -167,6 +174,7 @@ footer p {
     margin-left: 0px;
     height: auto;
     float: none;
+    margin-top: 0px;
   }
 
   .section h2{
