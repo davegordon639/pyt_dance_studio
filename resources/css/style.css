@@ -151,6 +151,16 @@ footer {
   color: #fff;
   background-color: #000;
   opacity: .5;
+  white-space: nowrap;
+}
+
+.icons {
+  width: 9.375rem;
+  display: flex;
+  justify-content: space-around;
+  flex-grow: 1;
+  align-items: center;
+  /*padding: 2rem;*/
 }
 
 footer p {
@@ -159,6 +169,8 @@ footer p {
   letter-spacing: 0.7px;
   text-align: center;
 }
+
+/* FACULTY */
 
 @media (max-width: 780px) {
 
