@@ -67,6 +67,27 @@ nav a:hover {
   padding: 3.125rem;
 }
 
+#faculty-headline {
+  background-image: url("../images/faculty-photo.png");
+  height: 25em;
+  border-bottom: 8px solid #8a54ff;
+}
+
+#faculty-headline div {
+  float: right;
+  margin-right: 100px;
+  width: 300px;
+}
+
+#faculty-headline h1 {
+  color: #8a54ff;
+}
+
+.faculty {
+  text-align: center;
+  margin-top: 5.625rem;
+}
+
 .headline h1{
   font-size: 3.124rem;
   font-weight: bold;
