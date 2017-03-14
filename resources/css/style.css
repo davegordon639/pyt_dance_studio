@@ -1,5 +1,6 @@
 html {
   margin: 0px;
+  font-size: 16px;
 }
 
 body {
@@ -7,6 +8,7 @@ body {
   margin: 0px;
   background-color: #000;
   color: white;
+  font-size: 16px;
 }
 
 header {
@@ -42,6 +44,8 @@ nav {
 
 nav ul {
   margin-right: 3.875rem;
+  margin-top: 0;
+  margin-bottom: 0px;
 }
 
 nav ul li {
@@ -114,7 +118,7 @@ nav a:hover {
   font-weight: bold;
   padding: 1.25rem 3.125rem;
   color: white;
-  width: 250px;
+  width: 350px;
   margin: 0 auto;
 }
 
@@ -124,6 +128,9 @@ nav a:hover {
   margin-top: 0px;
   height: 31.25rem;
   width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 
 #graffiti {
@@ -150,8 +157,8 @@ nav a:hover {
   background-color: rgba(173,74,226,0.9);
   line-height: 1.4;
   padding: 25px;
-  float: right;
-  margin-top: 130px;
+  /*float: right;*/
+  /*margin-top: 130px;*/
 }
 
 .section p {
@@ -161,7 +168,7 @@ nav a:hover {
 footer {
   background-image: url("../images/party-photo.png");
   background-repeat: no-repeat;
-  opacity: .5;
+  /*opacity: .5;*/
 }
 
 .footer-bar {
@@ -189,6 +196,7 @@ footer p {
   font-size: .875rem;
   letter-spacing: 0.7px;
   text-align: center;
+  color: white;
 }
 
 /* FACULTY */
