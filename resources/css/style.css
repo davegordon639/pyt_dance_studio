@@ -36,11 +36,16 @@ header {
   margin: 10px 3.875rem;
 }
 
+.mobile {
+  display: none;
+}
+
 nav {
   display: flex;
   justify-content: flex-end;
   flex-grow: 1;
   align-items: center;
+  /*white-space: nowrap;*/
 }
 
 nav ul {
@@ -107,6 +112,11 @@ nav a:hover {
   font-size: 1.875rem;
   font-weight: bold;
   color: #8a54ff;
+}
+
+.classes h5 {
+  font-size: 1.125rem;
+  font-weight: bold;
 }
 
 .faculty {
@@ -244,5 +254,77 @@ footer p {
     font-size: 1.875rem;
     font-weight: bold;
     line-height: 1.4;
+  }
+}
+
+@media (max-width: 480px) {
+  .mobile {
+    display: flex;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  header {
+    height: 2.5rem;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo img {
+    width: auto;
+    height: 30px;
+    margin: 10px 5px;
+  }
+
+  nav {
+    font-size: .75rem;
+  }
+
+  nav ul {
+    margin-right: 5px;
+  }
+
+  nav ul li {
+    margin-right: 20px;
+  }
+
+  .headline {
+    margin-top: 2.5rem;
+    height: 400px;
+  }
+
+  .headline h1{
+    font-size: 1.875rem;
+  }
+
+  .headline p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .classes-headline {
+    display: flex;
+    align-items: flex-end;
+    background-color: #fff;
+    justify-content: center;
+  }
+
+
+  #classes-headline {
+    height: 40rem;
+  }
+
+
+  #classes-headline div {
+    margin-right: 0px;
+    background-color: #fff;
+    float: none;
+    width: 100%;
+    padding: 15px;
   }
 }
