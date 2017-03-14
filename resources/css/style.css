@@ -9,6 +9,7 @@ body {
   background-color: #000;
   color: white;
   font-size: 16px;
+  background-color: #fff;
 }
 
 header {
@@ -76,14 +77,35 @@ nav a:hover {
   height: 25em;
   border-bottom: 8px solid #8a54ff;
 }
-
-#faculty-headline div {
-  float: right;
-  margin-right: 100px;
-  width: 300px;
+#classes-headline {
+  background-image: url("../images/classes-photo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 25em;
+  border-bottom: 8px solid #8a54ff;
 }
 
-#faculty-headline h1 {
+#faculty-headline div, #classes-headline div {
+  float: right;
+  margin-right: 100px;
+  margin-top: 100px;
+  width: 300px;
+  color: white;
+  text-align: center;
+}
+
+#classes-headline div {
+  color: #000;
+}
+
+#faculty-headline h1, #classes-headline h1 {
+  color: #8a54ff;
+  font-weight: bold;
+}
+
+.classes h2 {
+  font-size: 1.875rem;
+  font-weight: bold;
   color: #8a54ff;
 }
 
