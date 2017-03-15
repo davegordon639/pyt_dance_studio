@@ -77,11 +77,18 @@ nav a:hover {
   padding: 3.125rem;
 }
 
+.container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 #faculty-headline {
   background-image: url("../images/faculty-photo.png");
+  background-repeat: no-repeat;
   height: 25em;
   border-bottom: 8px solid #8a54ff;
 }
+
 #classes-headline {
   background-image: url("../images/classes-photo.png");
   background-repeat: no-repeat;
@@ -90,7 +97,16 @@ nav a:hover {
   border-bottom: 8px solid #8a54ff;
 }
 
-#faculty-headline div, #classes-headline div {
+#about-headline {
+  background-image: url("../images/workout-photo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 25em;
+  border-bottom: 8px solid #8a54ff;
+  margin-top: 50px;
+}
+
+#faculty-headline div, #classes-headline div, #about-headline div {
   float: right;
   margin-right: 100px;
   margin-top: 100px;
@@ -99,11 +115,15 @@ nav a:hover {
   text-align: center;
 }
 
-#classes-headline div {
+#about-headline div {
+  width: 400px;
+}
+
+#classes-headline div, #about-headline div {
   color: #000;
 }
 
-#faculty-headline h1, #classes-headline h1 {
+#faculty-headline h1, #classes-headline h1, #about-headline h1 {
   color: #8a54ff;
   font-weight: bold;
 }
@@ -121,7 +141,7 @@ nav a:hover {
 
 .faculty {
   text-align: center;
-  margin-top: 5.625rem;
+  /*margin-top: 5.625rem;*/
 }
 
 .headline h1{
@@ -176,6 +196,8 @@ nav a:hover {
 #jump {
   background-image: url("../images/jump-photo.png");
 }
+
+
 
 .section h2{
   font-size: 2.25rem;
