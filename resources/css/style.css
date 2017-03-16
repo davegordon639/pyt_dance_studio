@@ -253,6 +253,38 @@ footer p {
   color: white;
 }
 
+.grids {
+  display: flex;
+  justify-content: center;
+  background-color: #f2f2f2;
+}
+
+.grid {
+  display: flex;
+  justify-content: center;
+  color: #000;
+  width: 70%;
+}
+
+.grid img {
+  height: 9.375rem;
+}
+
+.grid div {
+  text-align: center;
+}
+
+.grid h2 {
+  font-size: 2.25rem;
+  font-weight: bold;
+  color: #8a54ff;
+}
+
+#ballet {
+
+  padding: 4rem;
+}
+
 /* FACULTY */
 
 @media (max-width: 780px) {
