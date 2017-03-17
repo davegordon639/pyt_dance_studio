@@ -281,8 +281,15 @@ footer p {
 }
 
 #ballet {
-
   padding: 4rem;
+}
+
+#clock {
+  padding: 0px 4rem;
+}
+
+#clock img {
+  margin-left: 2rem;
 }
 
 /* FACULTY */
