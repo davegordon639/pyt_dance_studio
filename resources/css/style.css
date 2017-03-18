@@ -172,6 +172,7 @@ nav a:hover {
   color: white;
   width: 350px;
   margin: 0 auto;
+  border-style: none;
 }
 
 .section {
@@ -295,6 +296,19 @@ footer p {
 /* FACULTY */
 
 @media (max-width: 780px) {
+  .headline h1{
+    font-size: 2rem;
+    line-height: 1;
+  }
+
+  .headline p {
+    font-size: .75rem;
+    line-height: 1.5;
+  }
+
+  .button {
+    font-size: 1rem;
+  }
 
   .section {
     display: flex;
@@ -315,6 +329,17 @@ footer p {
     font-size: 1.875rem;
     font-weight: bold;
     line-height: 1.4;
+  }
+
+  .grid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .grid img {
+    width: 5rem;
+    height: auto;
+    margin: 0 auto;
   }
 }
 
@@ -356,16 +381,24 @@ footer p {
 
   .headline {
     margin-top: 2.5rem;
-    height: 400px;
+    padding: 1.5rem;
+    /*height: 400px;*/
   }
 
   .headline h1{
     font-size: 1.875rem;
+    /*width: 400px;*/
   }
 
   .headline p {
-    font-size: 1rem;
+    font-size: .75rem;
     line-height: 1.6;
+    width: 300px;
+  }
+
+  .button {
+    width: 150px;
+    font-size: .75rem;
   }
 
   .classes-headline {
