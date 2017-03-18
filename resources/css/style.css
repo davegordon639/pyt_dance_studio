@@ -341,6 +341,14 @@ footer p {
     height: auto;
     margin: 0 auto;
   }
+
+  .mobile {
+    display: flex;
+  }
+
+  .desktop {
+    display: none;
+  }
 }
 
 @media (max-width: 480px) {
@@ -379,6 +387,10 @@ footer p {
     margin-right: 20px;
   }
 
+  .grid {
+    width: auto;
+  }
+
   .headline {
     margin-top: 2.5rem;
     padding: 1.5rem;
@@ -401,20 +413,22 @@ footer p {
     font-size: .75rem;
   }
 
-  .classes-headline {
+  .classes-headline, .about-headline {
     display: flex;
     align-items: flex-end;
     background-color: #fff;
     justify-content: center;
+    margin-top: 40px;
   }
 
 
-  #classes-headline {
+  #classes-headline, #about-headline {
     height: 40rem;
+    margin-top: 35px;
   }
 
 
-  #classes-headline div {
+  #classes-headline div, #about-headline div {
     margin-right: 0px;
     background-color: #fff;
     float: none;
